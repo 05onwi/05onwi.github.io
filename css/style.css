@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-size: xx-large;
-    font-family: system-ui;
     border-radius: 7px;
+    box-sizing: border-box;
+    
 }
 
 @font-face {
@@ -14,20 +14,20 @@
 
 html {
     font-size: 62.5%;
+    
 }
-
  #comma, #add, #sub, #mul, #div, #enter, #clear{
    color:aqua;
 }
-
-
-
-body {
-
+button:hover, #comma:hover, #add:hover, #sub:hover, #mul:hover, #div:hover, #enter:hover, #clear:hover{
+    color: green;
+    font-weight: bolder;
+    
 }
 
-main {
-
+body  {
+    background-color: black;
+    width: 100%;
 }
 
 main input{
@@ -45,25 +45,7 @@ main input{
 
 main section#keyBoard {
     /** Grid eller liknade */
+    display: grid;
+    height: 70rem;
 }
 
-@media (max-width: 767px) {
-    body {
-
-    }
-
-    main {
-
-    }
-
-    main input{
-
-    }
-}
-
-@media (max-width: 339px) {
-    main {
-
-    }
-
-}
