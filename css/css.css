@@ -1,0 +1,17 @@
+div{
+
+    width: 50rem;
+    height: 50rem;
+    color:white;
+    background-color: black;
+    position: absolute;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+line-height: 50rem;
+text-align: center;
+
+font-size: 10rem;
+}
+
