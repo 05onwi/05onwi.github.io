@@ -11,8 +11,8 @@ function init(){
 function click(){
     count++;
     document.getElementById("klick").innerHTML = count;
-    liksom.style.height = "49rem";
-    liksom.style.width = "49rem";
+    liksom.style.height = "79%";
+    liksom.style.width = "49%";
     färg();
     liksom.style.background = color;
     if(count >= 50){
@@ -23,8 +23,8 @@ function click(){
 }
 
 function unclick(){
-    liksom.style.height = "50rem";
-    liksom.style.width = "50rem";
+    liksom.style.height = "80%";
+    liksom.style.width = "50%";
     
 }
 
