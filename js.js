@@ -6,25 +6,25 @@ function init(){
     let bakgrund = document.getElementById("bakgrund");
     liksom.onmousedown = click;
     liksom.onmouseup = unclick;
+ if(count >= 50){
+        liksom.style.bordercolor = "Black";
+        liksom.style.border = "1rem";
+    }
+
 }
  
 function click(){
     count++;
     document.getElementById("klick").innerHTML = count;
-    liksom.style.height = "79%";
-    liksom.style.width = "49%";
+    liksom.style.height = "29rem";
+    liksom.style.width = "29rem";
     färg();
     liksom.style.background = color;
-    if(count >= 50){
-        bakgrund.style.background = "Black";
-    }
-
-
 }
 
 function unclick(){
-    liksom.style.height = "80%";
-    liksom.style.width = "50%";
+    liksom.style.height = "30rem";
+    liksom.style.width = "30rem";
     
 }
 

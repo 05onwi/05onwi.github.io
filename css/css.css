@@ -5,19 +5,21 @@ body{
 
 div {
 
-    width: 50%;
-    height: 80%;
+    width: 30rem;
+    height: 30rem;
     color: white;
     background-color: black;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    left: 0;
-    right: 0;
-    line-height: 50rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 50%;
     text-align: center;
     font-size: 10rem;
+}
+div h2{
+
+    
 }
 
 
